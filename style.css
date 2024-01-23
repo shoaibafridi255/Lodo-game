@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(123, 131, 160) , rgb(85, 0, 255));
+    font-family: "Arial", sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    display: flex;
+    /* justify-content: space-around; */
+  }
+  
+  .main {
+    width:700px;
+    height: 700px;
+    background-image: linear-gradient(to left, rgb(252, 2, 2) , rgb(216, 128, 21));
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  
+  .dice {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-bottom: 20px;
+    background: #fff;
+    /* border-radius: 10px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .dice img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #numbers1  {
+    font-size: 4rem;
+    margin: 20px 0;
+    color: #060606;
+  }
+  #numbers2  {
+    font-size: 4rem;
+    margin: 20px 0;
+    color: #060606;
+  }
+  
+  
+  
+  .btn {
+    background:rgb(40, 40, 85);
+    color: #fff;
+    border: none;
+    margin-top: 15%;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #fe1c1c;
+  }
+  
+  .scoreBox {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+  }
